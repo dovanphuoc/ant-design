@@ -17,7 +17,7 @@ More pages.
 import { Pagination } from 'antd';
 import React from 'react';
 
-const App: React.FC = () => <Pagination defaultCurrent={6} total={500} />;
+const App: React.FC = () => <Pagination defaultCurrent={1} total={1} />;
 
 export default App;
 ```
